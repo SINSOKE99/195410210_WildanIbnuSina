@@ -1,0 +1,228 @@
+header, section, footer, aside, nav, article, figure, figcaption
+{
+
+	display: block;
+	
+}
+
+body{
+
+	color: #666666;
+	background-color: #f9f8f6;
+	background-image: url("gambar/2.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: all;
+	background-position: center;
+	font-family: georgia, Times, serif;
+	line-height: 1.4em;
+	margin: 0px; 
+
+}
+
+.wrapper{
+
+	width: 940px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+}
+
+header{
+	padding-top: 60px;
+	height: 120px;
+	background-image: url("gambar/1.jpg");
+	color: white;
+}
+nav, footer{
+
+	clear: both;
+	color: #ffffff;
+	background-color: #aeaca8;
+	height: 50px;
+	padding-top: 10px;
+}
+
+nav ul{
+
+	margin: 0px;
+	padding: 10px 10px 5px 30px;
+
+}
+
+nav li{
+
+	display: inline;
+	margin-right: 40px;
+
+}
+
+nav li a{
+
+	color: #ffffff;
+	text-decoration: none;
+	padding: 20px;
+
+}
+
+nav li a:hover, nav li a.current{
+	background-color: white;
+	color: #000000;
+	padding: 25px;
+	font-size: 20px;
+
+}
+
+article{
+
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+.column{
+
+	float: left;
+}
+
+.column.content{
+
+	width: 79%;
+	border: 1px solid #eeeeee;
+
+}
+
+.column.menu{
+
+	width: 20%;
+	padding-left: 7px;
+	padding-top: 15px;
+}
+
+.mm {
+	
+	width : 95%;
+	background-color: width;
+ 	display: block;
+ 	text-align: left;
+ 	padding-bottom: 15px;
+ 	border: 1px solid #eeeeee;
+ 	height: 160px;
+ 	margin-top: 20px;
+ 	margin-left: 0;
+	padding-left: 0px;
+}
+
+.mm a {
+
+	float: left;
+	display: block;
+	color: #de6581;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	padding-left: 7px;
+ 	padding-right: 7px;
+
+}
+
+.mm a:hover {
+
+	color: black;
+
+}
+
+figure{
+
+	float: left;
+	width: 99.5%;
+	height: 200px;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #eeeeee;
+
+}
+
+figcaption{
+
+	font-size: 90%;
+	text-align: left;
+	height: 200px;
+	padding-top: 5px;
+	padding-left: 20px;
+
+}
+
+aside{
+
+	width: 40%;
+	height: 180px;
+	float: left;
+	padding: 0px 0px 0px 5px;
+	margin-top: 40px;
+	margin-left: 15px;
+
+}
+
+aside section a{
+
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #eeeeee;
+
+}
+
+aside section a:hover{
+
+	color: #985d6a;
+	background-color: #efefef;
+
+}
+
+a{
+
+	color: #de6581;
+	text-decoration: none;
+
+}
+
+h1, h2, h3, h4{
+
+	font-weight: normal;
+
+}
+
+h1{
+
+	font-size: 23px;
+
+}
+
+h2{
+
+	color: #de6581;
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+}
+
+h3{
+
+	margin: 0px 0px 10px 0px;
+	color: #de6581;
+
+}
+
+h4{
+
+	margin: 0px 0px 10px 0px;
+	color: #de6581;
+
+}
+
+.tmp{
+	margin-top: 20px;
+	float: center;
+	text-align: center;
+}
